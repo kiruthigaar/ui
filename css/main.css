@@ -147,6 +147,7 @@ body {
 	}
 	.mobile-spacing {
 		margin-left: 28px;
+		margin-top: 116px !important;
 	}
 	#mobile-nav{
 		position: relative;

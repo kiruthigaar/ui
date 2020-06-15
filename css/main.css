@@ -1,0 +1,162 @@
+
+
+.zoom:hover{
+	 transform: scale(1); 
+}
+
+.card:hover{
+	 transform: scale(1); 
+
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+
+.inner{
+    overflow: hidden;
+}
+ 
+.inner img{
+    transition: all 1.5s ease;
+}
+ 
+.inner:hover img{
+    transform: scale(1.5);
+}
+
+
+.main {
+  position: relative;  
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.main:hover .image {
+  opacity: 0.3;
+}
+
+.main:hover .middle {
+  opacity: 1;
+}
+
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.09); 
+}
+.highlight:hover{
+	background-color:blue;
+}
+	
+.menu-font {
+	font-family: 'Alegreya', serif;
+	font-size: 25px;
+	float: right;
+	font-weight: bold;
+}
+
+p {
+	font-family: 'lato,sans-serif';    
+	font-weight: 500;
+	font-size: 18px;
+
+}
+
+h1 {
+	font-family: 'Alegreya', serif !important;
+    font-weight: bold !important;
+}
+
+body {
+  background-image: url("../images/39041989-abstract-blue-light-background-for-science-design-vector-illustration-.jpg");
+   height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+
+.menu-icon {
+	display:none;
+}
+
+.list-color{
+	background-color: #FFAD6D;
+}
+
+
+@media only screen and (max-width:574px){
+	#mobile {
+		/*position: static !important;
+		margin-top:0px !important;*/
+		display:none;
+		
+	}
+	
+	.menu-icon {
+		display: block;	
+	}
+	
+	.hideme {
+		display:none;
+	}
+	.mobile-spacing {
+		margin-left: 28px;
+	}
+	#mobile-nav{
+		position: relative;
+	}
+	.mobile-menu{
+		padding: 145px 200px 0px 30px !important;
+	}
+}
+
+
+
+
+

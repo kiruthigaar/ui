@@ -147,7 +147,7 @@ body {
 	}
 	.mobile-spacing {
 		margin-left: 28px;
-		margin-top: 116px !important;
+		margin-top: 50px !important;
 	}
 	#mobile-nav{
 		position: relative;
@@ -163,6 +163,14 @@ body {
 }
 
 
-
+@media only screen and (max-width:360px){
+	.icon-style {
+		background-color: white;
+		position: fixed;
+	}
+	.nav-height {
+		height: 42px;
+	}
+}
 
 

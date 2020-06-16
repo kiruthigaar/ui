@@ -171,6 +171,9 @@ body {
 	.nav-height {
 		height: 42px;
 	}
+	.blogdiv{
+		padding-left:0px !important;
+	}
 }
 
 
